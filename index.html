@@ -22,9 +22,9 @@
       function gtag() {
         dataLayer.push(arguments);
       }
-      gtag('js', new Date());
+      gtag("js", new Date());
 
-      gtag('config', 'UA-6971488-24');
+      gtag("config", "UA-6971488-24");
     </script>
 
     <style>
@@ -37,7 +37,8 @@
       }
 
       #main {
-        background-image: url('https://res.cloudinary.com/gem-state-media/image/upload/e_blur:392/f_auto/v1551381338/BoiseWeb.Dev/BoiseWebDev.jpg');
+        background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+        background-image: url("./BoiseWebDev.jpg");
         height: 100%;
         background-position: center center;
         background-repeat: no-repeat;
@@ -48,9 +49,9 @@
       }
 
       h1 {
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
-          Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
-          'Segoe UI Symbol';
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+          Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+          "Segoe UI Symbol";
         font-size: 8vw;
         display: inline-block;
         padding: 1rem;
@@ -70,7 +71,7 @@
       h1:after {
         height: 2px;
         width: 100%;
-        content: '';
+        content: "";
         background: white;
         display: block;
         position: absolute;
@@ -99,10 +100,10 @@
       <h1>BoiseWeb.Dev</h1>
     </div>
     <script>
-      window.onload = function() {
-        setTimeout(function() {
-          var element = document.getElementById('main');
-          element.classList.remove('is-loading');
+      window.onload = function () {
+        setTimeout(function () {
+          var element = document.getElementById("main");
+          element.classList.remove("is-loading");
         }, 100);
       };
     </script>
