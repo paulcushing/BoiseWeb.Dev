@@ -5,14 +5,9 @@ export default function Person(props) {
 
   const truncateLength = 300;
 
-  const myLoader = ({ src, width, quality }) => {
-    return `https://boiseweb.dev/${src}?w=${width}&q=${quality || 75}`;
-  };
-
   return (
     <div className="p-6 block max-w-md">
       <Image
-        loader={myLoader}
         alt="placeholder"
         src={"/images/" + person.image}
         height={400}
