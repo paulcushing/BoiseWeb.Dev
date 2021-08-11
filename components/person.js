@@ -5,13 +5,18 @@ export default function Person(props) {
 
   const truncateLength = 300;
 
+  const myLoader = ({ src, width, quality }) => {
+    return `https://boiseweb.dev/${src}?w=${width}&q=${quality || 75}`;
+  };
+
   return (
     <div className="p-6 block max-w-md">
       <Image
+        loader={myLoader}
         alt="placeholder"
         src={"/images/" + person.image}
-        height="400"
-        width="400"
+        height={400}
+        width={400}
         className="max-w-full rounded-2xl"
       />
       <a href="https://nextjs.org/docs" className="">
