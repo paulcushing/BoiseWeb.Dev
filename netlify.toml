@@ -12,4 +12,4 @@
   publish = "_next"
 
   # Default build command.
-  # command = "echo 'default context'"
+  command = "yarn build && yarn export"
