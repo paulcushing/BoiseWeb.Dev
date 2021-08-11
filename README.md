@@ -1,34 +1,35 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# BoiseWeb.Dev
 
-## Getting Started
+Hey there Boise Web Dev party people! Add your name to this here Hall of ~~Shame~~ Fame!
 
-First, run the development server:
+## The ~~Destructions~~ Directions
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+### Adding your info
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Clone the repo
+- Add your info to the json file at `components/peopleData.json`
+- Required:
+  - name: please use your legit name, nicknames and AKAs are welcome in the description though
+  - description: 0-300 characters of descriptive awesomeness
+  - image: we wanna see your smiling mug
+- Optional:
+  - links
+    - icon: Choose an icon to represent your link from [FontAwesome](https://fontawesome.com/v5.15/icons?d=gallery&p=2). Include in that value whatever should be inserted into the class parameter to make it work.
+    - url: Should be pretty self explanatory. You did say you were a web dev, right?
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+### Add your photo
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+- Add a photo of your beautiful face to the `public/images` folder. 400px x 400px is optimal. Use the format `YourName.jpg` or `YourName.png` to keep things simple. Leave out apostrophe's or any other characters that will break stuff.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+### Commit & Make A Pull Request
 
-## Learn More
+I'll ensure the format looks legit, and possibly ensure you exist on the Googles... then approve.
 
-To learn more about Next.js, take a look at the following resources:
+## Disclosure
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+It should go without saying... but... well...
+This stuff is going on the internets and is public. I reserve the right to share what you put in here. If you don't want it out there, don't share it.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## What Is This?
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+It's just a little project I built to keep myself entertained. It's built on Next.js and deployed to Netlify. I'm open to suggestions for improvement... even _constructive_ criticism.
