@@ -34,6 +34,7 @@ export default function Person(props) {
                   href={link.url}
                   className="text-blue-700 hover:text-blue-900"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   <i className={link.icon} />
                 </a>
