@@ -8,7 +8,7 @@ export default function Person(props) {
   return (
     <div className="p-6 block max-w-md">
       <Image
-        alt="placeholder"
+        alt={person.name}
         src={"/images/" + person.image}
         height={400}
         width={400}
@@ -33,8 +33,9 @@ export default function Person(props) {
                 <a
                   href={link.url}
                   className="text-blue-700 hover:text-blue-900"
+                  target="_blank"
                 >
-                  <i className={link.icon}></i>
+                  <i className={link.icon} />
                 </a>
               </div>
             );

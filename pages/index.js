@@ -8,7 +8,7 @@ export default function Home() {
         <title>
           BoiseWeb.Dev - Discover the internet intellects of the Boise area
         </title>
-        <script async type="text/javascript" src="/fa/all.min.js"></script>
+        <link rel="stylesheet" href="/fa/css/all.min.css" />
         <meta name="description" content="The Web Developers of Boise, Idaho" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -33,7 +33,7 @@ export default function Home() {
             request via github.{" "}
             <a
               className="text-blue-700 hover:text-blue-900"
-              href="https://github.com"
+              href="https://github.com/paulcushing/BoiseWeb.Dev"
             >
               Learn more &rarr;
             </a>
