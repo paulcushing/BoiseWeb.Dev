@@ -27,10 +27,10 @@ export default function Home() {
         </header>
 
         <div className="mx-auto mb-20 px-8">
-          <p className="text-center">
-            Learn about some of the amazing Web Developers in Boise. If YOU are
-            a dev and would like to join this list, submit your name as a pull
-            request via github.{" "}
+          <p className="text-center text-lg">
+            Learn about some of the amazing Web Developers in Boise.</p>
+          <p className="text-center">If YOU are
+            a dev and would like to join this list, submit your name via Github.{" "}
             <a
               className="text-blue-700 hover:text-blue-900"
               href="https://github.com/paulcushing/BoiseWeb.Dev"

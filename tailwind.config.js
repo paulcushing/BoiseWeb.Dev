@@ -10,6 +10,9 @@ module.exports = {
       white: colors.white,
       black: colors.black,
     },
+    boxShadow: {
+      light: '10px 10px 20px 20px rgba(255, 255, 255, 0.05)'
+    },
     fontFamily: {
       sans: ["Graphik", "sans-serif"],
       serif: ["Merriweather", "serif"],

@@ -6,7 +6,7 @@ export default function Person(props) {
   const truncateLength = 300;
 
   return (
-    <div className="p-6 block max-w-md">
+    <div className="person-card p-6 block max-w-md">
       <Image
         alt={person.name}
         src={"/images/" + person.image}

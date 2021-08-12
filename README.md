@@ -13,7 +13,7 @@ Hey there Boise Web Dev party people! Add your name to this here Hall of ~~Shame
   - description: 0-300 characters of descriptive awesomeness
   - image: we wanna see your smiling mug
 - Optional:
-  - links
+  - links (maximum: 3)
     - icon: Choose an icon to represent your link from [FontAwesome](https://fontawesome.com/v5.15/icons?d=gallery&p=2). Include in that value whatever should be inserted into the class parameter to make it work.
     - url: Should be pretty self explanatory. You did say you were a web dev, right?
 
@@ -32,4 +32,4 @@ This stuff is going on the internets and is public. I reserve the right to share
 
 ## What Is This?
 
-It's just a little project I built to keep myself entertained. It's built on Next.js and deployed to Netlify. I'm open to suggestions for improvement... even _constructive_ criticism.
+It's just a little project I built to keep myself entertained. It's built on Next.js and deployed to ~~Netlify~~ Vercel. (I LOVE Netlify but the new NextJS Image component wasn't playing nice there.) I'm open to suggestions for improvement... even _constructive_ criticism.
