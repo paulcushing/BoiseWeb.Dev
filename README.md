@@ -33,3 +33,11 @@ This stuff is going on the internets and is public. I reserve the right to share
 ## What Is This?
 
 It's just a little project I built to keep myself entertained. It's built on Next.js and deployed to ~~Netlify~~ Vercel. (I LOVE Netlify but the new NextJS Image component wasn't playing nice there.) I'm open to suggestions for improvement... even _constructive_ criticism.
+
+## Who's This For?
+
+One definition of a _Web Developer_:
+
+> A Web developer is a kind of programmer who specializes in the development of applications relating to the World Wide Web or distributed network applications, which typically run protocols like HTTP from a Web server to a client browser using associated programming languages like HTML/CSS, C#, Ruby and PHP to name a few. A Web developer is usually concerned with the back end or the programming aspect of creating a website or Web application...
+
+I'm not too concerned about your role title or whether you can code. If you think you belong in the world of "web development", jump in! Coder, engineer, designer, product owner, CEO of a SAAS... whatever.

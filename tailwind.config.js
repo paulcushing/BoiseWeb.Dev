@@ -11,7 +11,7 @@ module.exports = {
       black: colors.black,
     },
     boxShadow: {
-      light: '10px 10px 20px 20px rgba(255, 255, 255, 0.05)'
+      light: "1px 1px 5px 5px rgba(255, 255, 255, 0.03)",
     },
     fontFamily: {
       sans: ["Graphik", "sans-serif"],
