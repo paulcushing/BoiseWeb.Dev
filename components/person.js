@@ -24,9 +24,7 @@ export default function Person(props) {
         </p>
       </a>
       {person.links && person.links.length > 0 ? (
-        <div
-          className={"flex flex-row flex-wrap justify-center mt-6"}
-        >
+        <div className={"flex flex-row flex-wrap justify-center mt-6"}>
           {person.links.map((link, index) => {
             return (
               <div key={index} className="text-center text-xl mx-10">
@@ -35,6 +33,7 @@ export default function Person(props) {
                   className="text-blue-700 hover:text-blue-900"
                   target="_blank"
                   rel="noreferrer"
+                  aria-label={link.url}
                 >
                   <i className={link.icon} />
                 </a>

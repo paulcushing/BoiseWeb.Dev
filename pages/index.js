@@ -6,9 +6,8 @@ export default function Home() {
     <div id="body-container" className="w-full">
       <Head>
         <title>
-          BoiseWeb.Dev - Discover the internet intellects of the Boise area
+          BoiseWeb.Dev - Discover the internet builders of the Boise area
         </title>
-        <link rel="stylesheet" href="/fa/css/all.min.css" />
         <meta name="description" content="The Web Developers of Boise, Idaho" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -28,9 +27,11 @@ export default function Home() {
 
         <div className="mx-auto mb-20 px-8">
           <p className="text-center text-lg">
-            Learn about some of the amazing Web Developers in Boise.</p>
-          <p className="text-center">If YOU are
-            a dev and would like to join this list, submit your name via Github.{" "}
+            Learn about some of the amazing Web Developers in Boise.
+          </p>
+          <p className="text-center">
+            If YOU are a dev and would like to join this list, submit your name
+            via Github.{" "}
             <a
               className="text-blue-700 hover:text-blue-900"
               href="https://github.com/paulcushing/BoiseWeb.Dev"
