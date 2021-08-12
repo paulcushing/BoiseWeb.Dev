@@ -9,7 +9,6 @@ export default function Home() {
           BoiseWeb.Dev - Discover the internet builders of the Boise area
         </title>
         <meta name="description" content="The Web Developers of Boise, Idaho" />
-        <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main className="relative mt-10 z-10 text-gray-100">
