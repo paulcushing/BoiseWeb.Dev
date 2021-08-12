@@ -25,11 +25,11 @@ export default function Person(props) {
       </a>
       {person.links && person.links.length > 0 ? (
         <div
-          className={"grid grid-cols-" + person.links.length + " gap-4 mt-6"}
+          className={"flex flex-row flex-wrap justify-center mt-6"}
         >
           {person.links.map((link, index) => {
             return (
-              <div key={index} className="text-center text-xl">
+              <div key={index} className="text-center text-xl mx-10">
                 <a
                   href={link.url}
                   className="text-blue-700 hover:text-blue-900"
