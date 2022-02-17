@@ -1,0 +1,21 @@
+[
+  {
+    "name": "Paul Cushing",
+    "description": "A learner by nature, and a creative always, Paul just loves to build things. Currently a Software Engineer at ClickBank, a photographer at GemStateMedia.com, and developer of this site.",
+    "image": "PaulCushing.jpg",
+    "links": [
+      {
+        "icon": "fas fa-tv",
+        "url": "https://www.thepaulcushing.com"
+      },
+      {
+        "icon": "fas fa-at",
+        "url": "mailto:pcushing@gmail.com?subject=I saw you on BoiseWeb.Dev"
+      },
+      {
+        "icon": "fab fa-github",
+        "url": "https://github.com/paulcushing"
+      }
+    ]
+  }
+]
