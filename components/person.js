@@ -14,15 +14,15 @@ export default function Person(props) {
         width={400}
         className="max-w-full rounded-2xl"
       />
-      <a href="https://nextjs.org/docs" className="">
-        <h2 className="text-xl">{person.name}</h2>
-        <p>
-          {person.description.substring(0, truncateLength)}
-          {person.description.substring(truncateLength, truncateLength + 1)
-            ? "..."
-            : null}
-        </p>
-      </a>
+
+      <h2 className="text-xl">{person.name}</h2>
+      <p>
+        {person.description.substring(0, truncateLength)}
+        {person.description.substring(truncateLength, truncateLength + 1)
+          ? "..."
+          : null}
+      </p>
+
       {person.links && person.links.length > 0 ? (
         <div className={"flex flex-row flex-wrap justify-center mt-6"}>
           {person.links.map((link, index) => {
